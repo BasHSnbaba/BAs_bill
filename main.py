@@ -9,7 +9,7 @@ class Stats:
     def __init__(self):
 
         # 载入ui文件
-        self.ui = QUiLoader().load('BAs_bill/ui/main.ui')
+        self.ui = QUiLoader().load('./ui/main.ui')
 
         # 设置按钮 showSetting
         self.ui.pushButton_setting.clicked.connect(self.showSetting)
